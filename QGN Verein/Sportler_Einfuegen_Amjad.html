@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+
+    <head>
+         <title>Sportler einfuegen.</title>
+         <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+
+    <body>
+        <div id="Main">
+           <div id="Head">
+               <h1>QGN Verein Neuss e.V.</h1>
+           </div>
+           <div id="navi">
+               <a href="index.html">Startseite</a>
+               <a href="Sportarten.php">Sportarten</a>
+               <a href="Sportler1.php">Sportler</a>
+               <a href="Sportler_Einfuegen.html">Sportler einfuegen</a>
+           </div>
+           <div id="navi">
+            <h3>
+        neuer Sportler
+       </h3>
+       <form method="neuer Sportler" action="<? echo $_SERVER['PHP_SELF']  ?>" />
+       <input type="varchar" placeholder="vorname" name="vorname" style="width: auto;"/>
+       <input type="varchar" placeholder="nachname" name="nachname" style="width: auto;"/>
+       <input type="varchar" placeholder="strasse" name="strasse" style="width: auto;"/>
+       <input type="varchar" placeholder="hausnummer" name="hausnummer" style="width: auto;"/>
+       <input type="varchar" placeholder="ort" name="ort" style="width: auto;"/>
+       <input type="varchar" placeholder="email" name="email" style="width: auto;"/>
+       <input type="date" placeholder="geburtsdatum" name="geburtsdatum" style="width: auto;"/>
+        <input type="submit" value="submit" />
+       </form>
+            <div id="seitenleiste">
+                <p>follow us on <a href="https://www.facebook.com/AmjadAlSayedAliBI">Facebook</a></p>
+            </div>
+        </div>
+     </body>
+
+</html>

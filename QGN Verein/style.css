@@ -1,0 +1,59 @@
+body
+{
+   font-family: Arial;
+   background-color: #E8E8E8;
+}
+
+h1
+{
+    font-size: 20pt;
+}
+
+h2
+{
+    font-size: 18pt;
+}
+
+p
+{
+    font-size: 14pt;
+}
+
+#Main
+{
+    background-color: Red;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#Head
+{
+    background-image: url(headimg.xcf);
+    height: 150px;
+}
+
+#navi
+{
+    background-color: #00BB00;
+    height: 20px;
+}
+
+#content
+{
+    background-color: white;
+    width: 500px;
+    position: absolute;
+}
+
+#seitenleiste
+{
+    background-color: #00FFFF;
+    padding: 10xp;
+    padding-bottom: 5xp;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24xp;
+    letter-spacing: 2px;
+}
